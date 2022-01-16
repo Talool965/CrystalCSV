@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -171,6 +171,14 @@ namespace Crystal
                     case 1:
                         Console.Clear();
                         Modules.cookiechecker();
+                        if (File.Exists(""))
+                        {
+                            
+                        }
+                        else
+                        {
+                            File.Create("Output.csv");
+                        }
                         break;
 
                     case 2:

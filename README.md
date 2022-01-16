@@ -1,6 +1,6 @@
 # CrystalCSV
-#Basic roblox checker that saves results in a .csv format file
-#Features
+# Basic roblox checker that saves results in a .csv format file
+# Features
 USERID	 USERNAME	 ROBUX	 RAP	 PREMIUM	 CREDIT	 PENDINGROBUX	 DATE OF CREATION	 EMAILVERIFIED
 #current Verison
 1.0.1

@@ -117,7 +117,7 @@ namespace Crystal
                         {
                             string time = DateTime.Now.ToString("h:mm:ss tt");
                             allLines.Add(line);
-                            string api = client.DownloadString($"https://story-of-jesus.xyz/userinfo?cookie={line}");
+                            string api = client.DownloadString($"eggy.cool/userinfo?cookie={line}");
 
                             var USERID = Regex.Match(api, $"\"userid\": (.+?),").Groups[1].Value;
                             var USERNAME = Regex.Match(api, $"\"username\": (.+?),").Groups[1].Value;
